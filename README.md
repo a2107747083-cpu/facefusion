@@ -55,6 +55,42 @@ commands:
 ```
 
 
+
+Windows 10 Desktop App Packaging
+--------------------------------
+
+Build a real desktop app (`.exe`) for Windows 10:
+
+1. Open **Command Prompt** in the project root.
+2. Run:
+
+```
+build_windows_app.bat
+```
+
+After build succeeds, launch:
+
+```
+dist\FaceFusionDesktop\FaceFusionDesktop.exe
+```
+
+When the app opens, it will display this startup popup:
+
+- `荀彧制造 假一赔十`
+
+For script-based local usage (without packaging):
+
+```
+python app_launcher.py setup
+python app_launcher.py run
+```
+
+
+Chinese Quick Start (Windows)
+-----------------------------
+
+For non-technical users, read `README_中文.md` and double-click `start.bat` to launch.
+
 Documentation
 -------------
 

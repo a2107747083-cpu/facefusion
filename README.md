@@ -86,11 +86,6 @@ python app_launcher.py run
 ```
 
 
-Chinese Quick Start (Windows)
------------------------------
-
-For non-technical users, read `README_中文.md` and double-click `start.bat` to launch.
-
 Documentation
 -------------
 
